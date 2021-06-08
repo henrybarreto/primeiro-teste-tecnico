@@ -1,0 +1,33 @@
+.repo {
+    margin: 0 10px;
+    display: flex;
+    justify-content: space-between;
+    max-width: 500px;
+    width: 100%;
+    min-height: 150px;
+    height: auto;
+    text-align: left;
+    border-bottom: 2px solid #FF7F50FF;
+}
+.repo_info {
+    width: auto;
+
+}
+.repo_name {
+    width: auto;
+}
+.repo_description {}
+.repo_action {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    box-sizing: border-box;
+}
+.repo_action_button {
+    margin: 0;
+    padding: 10px;
+    border: 0;
+    color: #fff;
+    background-color: #FF7F50FF;
+}

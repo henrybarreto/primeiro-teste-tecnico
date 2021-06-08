@@ -1,0 +1,46 @@
+.modal_screen {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background: #fff;
+}
+.modal {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    max-width: 500px;
+    width: 500px;
+    min-height: 200px;
+    margin: 0 25px;
+    padding: 10px;
+    border: 2px solid #FF7F50FF;
+}
+
+.modal_close_button {
+    margin: 0 !important;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    width: auto;
+    height: auto;
+    align-self: baseline;
+}
+.modal_submit_button {
+    margin: 10px 0;
+}
+
+.modal_form {
+    display: flex;
+    flex-direction: column;
+}
+
+.modal--hidden {
+    display: none;
+ }
